@@ -1,0 +1,414 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+   width: 100%;
+    letter-spacing: 0.01rem;
+    font-family: open-sans,"Helvetica Neue",Arial,sans-serif;
+ }
+
+
+
+/* header */
+.top-bar {
+   width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.top-bar a {
+    color: #3A3737;
+    padding: 1rem;
+    font-size: 1.000125rem;
+    font-weight: 700;
+}
+
+.top-bar i {
+    padding-right: 0.5rem;
+}
+
+.middle-bar {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   box-shadow: 5px 5px 8px -1px rgb(0 0 0 / 32%);
+}
+
+.middle-img {
+   display: flex;
+   width: 13%;
+}
+
+
+.middle-list {
+   width: 87%;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   font-weight: 700;
+}
+
+
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.logoimg {
+    width: 100%;
+}
+
+
+.menu-bar {
+   width: 100%;
+}
+
+ /* container1 */
+ .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .container1-left {
+    width: 57%;
+ }
+
+ .topimg {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   background-size: cover;
+ }
+
+
+ .container1-right {
+    width: 43%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .container1-right1 {
+   width: 100%;
+   background-color: #5AB6E5;
+   justify-content: center;
+   color: #3A3737;
+   flex-grow: 1;
+ }
+
+
+#form2 {
+   position:relative;
+   max-width:300px;	
+   margin-bottom:20px;
+
+   }
+   #sbox2{
+   height:40px;
+   width: 500px;
+   position:absolute; 
+   border-radius:2px;
+   outline:0;
+   background:#eee;	
+   margin: 0
+}
+
+#sbtn2 {
+   height:20px;
+   position:absolute; 
+   right:0px;
+   top:0;
+   background:none;
+   color:#666;
+   border:none;
+   font-size:20px;
+   }
+   #sbtn5:hover{
+   color:#7fbfff;
+   }
+ .container1-right2 {
+   width: 100%;
+   flex-grow: 1;
+   background-color: #CF2550;
+   color: #FFFFFF;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+
+.idcard-img {
+   width: 15%;
+   display: flex;
+}
+
+.idcard {
+   width: 70%;
+   margin: auto;
+   justify-content: center;
+}
+
+.idcard-right {
+   width: 80%;
+}
+
+ .librarycard {
+   display: inline;
+ }
+ .container1-right3 {
+   width: 100%;
+   flex-grow: 2;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .opendoor {
+   width: 50%;
+ }
+
+ .blueborder {
+   border: 8px solid #2C88B5;
+   padding: 20px;
+   color: #2C88B5;
+   line-height: ;
+ }
+
+ .thingsyoucando {
+   width: 50%;
+
+ }
+
+
+
+  /* container2 */
+  .container2 {
+    width: 100%;
+    height: 400px;
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    background-color: #B0BA25;
+    position: relative;
+  }
+
+  .container2 h2 {
+   font-size: 18px;
+   font-weight: bold;
+   display: inline;
+   background-color: #B0BA25;
+   padding: 20px 100px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+  }
+
+   /* container3 */
+ .container3 {
+   position: relative;
+   margin-top: 100px;
+   margin-left: 110px;
+   padding-right: 15px;
+   padding-left: 15px;
+   width: 100%;
+   height: 300px;
+   line-height: 3;
+   color: #3A3737;
+ }
+
+ 
+
+ .container3 h2 {
+   font-weight: 800;
+ }
+  /* container4 */
+  .container4 {
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .container4 h2 {
+    margin: 30px;
+  }
+
+  .container4-left {
+    background-color: #EEF8FC;
+    color: #5AB6E5;
+    flex-grow: 1;
+  }
+
+  .container4-middle {
+    background-color: #5AB6E5;
+    flex-grow: 1;
+  }
+
+  .container4-right {
+    background-color: black;
+    flex-grow: 1;
+  }
+
+
+   /* container5 */
+ .container5 {
+    width: 80%;
+    margin: 100px auto;
+ }
+
+ .container5 h2 {
+  margin: 50px;
+  background-color: #3A3737;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+ }
+
+ .books {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ }
+
+ .books img {
+  width: 15%;
+  box-shadow: 5px 5px 8px -1px rgb(0 0 0 / 32%);
+ }
+
+  /* container6 */
+  .container6 {
+    width: 100%;
+    height: 500px;
+    border: 1px dotted red;
+    background-color: #2C88B5;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container6-left {
+    width: 30%;
+  }
+
+  .container6-right {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+   /* container7 */
+ .container7 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    line-height: 2;
+ }
+
+ .container7-left {
+    width: 50%;
+    border: 1px dotted green;
+ }
+
+ .container7-right {
+    width: 50%;
+ }
+
+  /* container8 */
+  .container8 {
+    width: 100%;
+    padding: 84px;
+    background-color: #9771B2;
+    display: ;
+  }
+
+  .container8 h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .container8-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .container8 img {
+    padding: 40px  40px 0 40px;
+  }
+
+  .imagebellow {
+    text-align: center;
+    color: white;
+  }
+
+
+
+
+
+   /* container9 */
+ .container9 {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  color: #3A3737;
+ }
+
+ .container9 {
+  font-size: 2.062125rem;
+ }
+
+ .container9-left {
+    width: 50%;
+    background-color: #5AB6E5;
+ }
+
+ .container9-right {
+    width: 50%;
+    background-color: #E1E86B;
+ }
+  /* container10 */
+  .container10 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
+ 
+.container10-left {
+    width: 50%;
+}
+
+.container10-right {
+    width: 50%;
+}
